@@ -1,0 +1,57 @@
+body {
+    font-family: 'Belleza', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: flex-start;
+    height: 5vh;
+}
+
+.navbar {
+    /* font-family: var(--heading-font-family); */
+    font-weight: bold;
+}
+
+.hero-image  {
+    background-image: url("src/images/Hot_Rice_9-WS.jpg");
+    background-color: lightgray;
+    height: 25vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    font-family: var(--heading-font-family);
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 { 
+    font-size: 65px;
+    text-shadow: 2px 2px black;
+}
+
+.hero-text h2 { 
+    font-size: 42px;
+    text-shadow: 2px 2px black;
+}
+
+.hero-text p {
+    font-family: var(--secondary-font-family);
+    text-shadow: 2px 2px black;
+}
