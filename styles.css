@@ -17,25 +17,33 @@ body {
     font-weight: bold;
 }
 
+.hero {
+    padding: 10px;
+    margin-right: 5px;
+}
+
 .hero-image  {
-    background-image: url("src/images/Hot_Rice_9-WS.jpg");
+    background-image: url("src/images/20190409_181100.jpg");
     background-color: lightgray;
-    height: 25vh;
+    height: 5vh;
     width: 100vw;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 550px;
+    padding-top: 750px;
     display: flex;
     justify-content: center;
+    /* background-position: center; */
+    /* padding-bottom: 5px;
+    padding-right: 950px;
+    padding-left: 750px; */
 }
 
 .hero-text {
     font-family: var(--heading-font-family);
     text-align: left;
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 25%;
     transform: translate(-50%, -50%);
     color: white;
@@ -54,4 +62,13 @@ body {
 .hero-text p {
     font-family: var(--secondary-font-family);
     text-shadow: 2px 2px black;
+}
+
+
+.card-text {
+    text-align: center;
+}
+
+footer {
+    background-color: #eef8f3;
 }
